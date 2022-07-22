@@ -1,0 +1,30 @@
+.contact__container{
+    height: 100vh;
+}
+
+.contact__options{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact__option{
+    background: var(--color-bg-variant);
+    width: 25rem;
+    height: 8rem;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-color: transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
