@@ -1,38 +1,54 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from "../../assets/IMG1.png"
-import IMG2 from "../../assets/IMG2.png"
-import IMG3 from "../../assets/IMG3.png"
-import IMG4 from "../../assets/IMG4.png"
+import IMGtodo from "../../assets/IMGtodo.png"
+import IMGcalc from "../../assets/IMGcalc.png"
+import IMGtstodo from "../../assets/IMGtstodo.png"
+import IMGweather from "../../assets/IMGweather.png"
+import IMGpfinances from "../../assets/IMGpfinances.png"
+import IMGbmi from "../../assets/IMGbmi.png"
 
 const data = [
   {
     id:1,
-    image: IMG1,
-    title: 'Weather app; consuming multiple API',
-    github: 'https://github.com/HeitorMontenegro/weather-app',
-    demo: 'https://dribbble.com/shots/18856858-Weather-app'
+    image: IMGpfinances,
+    title: 'React/Typescript personal finances app',
+    github: 'https://github.com/HeitorMontenegro/ts-personal-finances-app',
+    demo: 'https://62e4e12de8e9f55c2dcf1f10--stirring-selkie-26c3e1.netlify.app/'
   },
   {
     id:2,
-    image: IMG2,
-    title: 'React to do list',
-    github: 'https://github.com/HeitorMontenegro/react-to-do-list',
-    demo: 'https://dribbble.com/shots/18856861-To-do-list'
+    image: IMGweather,
+    title: 'Weather app; consuming multiple API',
+    github: 'https://github.com/HeitorMontenegro/weather-app',
+    demo: 'https://62e4df4c6768265c264bcccc--gilded-boba-da0572.netlify.app/'
   },
   {
     id:3,
-    image: IMG3,
-    title: 'React and typescript to do list',
-    github: 'https://github.com/HeitorMontenegro/TS-to-do-list',
-    demo: 'https://dribbble.com/shots/18856863-To-do-list-typescript'
+    image: IMGtodo,
+    title: 'React to do list',
+    github: 'https://github.com/HeitorMontenegro/react-to-do-list',
+    demo: 'https://62e4dfbf6d04c85b309ee417--vocal-crisp-4d5b4f.netlify.app/'
   },
   {
     id:4,
-    image: IMG4,
+    image: IMGtstodo,
+    title: 'React/Typescript to do list',
+    github: 'https://github.com/HeitorMontenegro/TS-to-do-list',
+    demo: 'https://62e4e04cb929a7548def0527--chipper-tanuki-7fe59a.netlify.app/'
+  },
+  {
+    id:5,
+    image: IMGbmi,
+    title: 'Vanilla javascript BMI calculator',
+    github: 'https://github.com/HeitorMontenegro/Javascript-BMI-calculator',
+    demo: 'https://ephemeral-swan-bb71bc.netlify.app/'
+  },
+  {
+    id:6,
+    image: IMGcalc,
     title: 'Vanilla javascript calculator',
     github: 'https://github.com/HeitorMontenegro/Simple-calculator-vanillaJS',
-    demo: 'https://dribbble.com/shots/18856868-Vanilla-js-calculator'
+    demo: 'https://funny-tapioca-5f9e0d.netlify.app/'
   }
 ]
 
