@@ -21,10 +21,19 @@ margin: 0;
 }
 
 .links{
+        width: 400px;
 align-items: center;
 text-align: center;
 }
 
 .links *{
 margin: 20px;
+}
+
+@media screen and (max-width: 1024px){
+        @media screen and (max-width: 1024px){
+                .links *{
+                        margin: 20px auto;
+                        }
+        }
 }

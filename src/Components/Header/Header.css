@@ -29,14 +29,5 @@ header{
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 600px){
-    header{
-        height: 100vh;
-}
-}
 
-@media screen and (max-width: 1024px){
-    header{
-            height: 68vh;
-    }
-}
+

@@ -11,9 +11,8 @@
 }
 
 :root{
-    /* --color-bg: #601F42; */
     --color-bg: #235789;
-    --color-bg-variant: #5555FF72;
+    --color-bg-variant: #E036164C;
     --color-primary: #6BFFF0;
     --color-primary-variant: rgba(255, 187, 0, 0.4);
     --color-white: #fff;
