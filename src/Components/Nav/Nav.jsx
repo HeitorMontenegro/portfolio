@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Nav.css'
 import { AiFillHome } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
@@ -8,6 +8,38 @@ import { useState } from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
+
+useEffect(() => {
+  const handleScroll = event => {
+    const scrollVar = window.scrollY
+
+      if (scrollVar >= 1100.888916015625 && scrollVar < 2000.666748046875){
+
+          setActiveNav('#about')
+
+      }else if (scrollVar >= 2000.666748046875 && scrollVar < 3310.5556640625){
+
+          setActiveNav('#portfolio')
+
+      }else if(scrollVar >= 3310.5556640625){
+
+          setActiveNav('#contact')
+
+      }else{
+
+          setActiveNav('#')
+
+       }      
+  };
+  window.addEventListener('scroll', handleScroll);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
+
+
+
 
   return (
     <nav>
